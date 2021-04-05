@@ -5,6 +5,7 @@ $conn=new mysqli("localhost","root","","studentresult");
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
+
 $finalmsg="";
 if(isset($_POST["register"]))
 {
